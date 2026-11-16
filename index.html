@@ -3,29 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Эстетика Будущего</title>
+<title>Новая презентация</title>
 <style>html,body{height:100%;margin:0;background:#000}#deck{position:fixed;inset:0}</style>
 </head>
 <body>
 <div id="deck"></div>
-<script src="js/templates.js"></script>
 <script>
-var DECK={"title":"Эстетика Будущего","player":{"controls":"auto","hideDelay":1600,"hotZone":140,"pos":"bottom","hint":true,"hideCursor":true,"progress":true,"counter":true},"slides":[{"id":"fut101","bg":"radial-gradient(circle at 20% 20%, #312e81 0%, #020617 100%)","notes":"Вводный слайд: задаем футуристичную и глубокую атмосферу.","transition":"morph","transitionDur":900,"elements":[{"id":"fute1","type":"text","x":120,"y":240,"w":1040,"h":120,"rot":0,"op":1,"text":"Эстетика Будущего.","fs":88,"fw":800,"color":"#ffffff","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":0,"enterDur":1000,"morphId":"main-title"},{"id":"fute2","type":"text","x":200,"y":380,"w":880,"h":80,"rot":0,"op":1,"text":"Новый стандарт цифровых презентаций и иммерсивных интерфейсов","fs":24,"fw":300,"color":"#94a3b8","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":200,"enterDur":900,"morphId":""}]},{"id":"fut102","bg":"radial-gradient(circle at 80% 80%, #1e1b4b 0%, #020617 100%)","notes":"Второй слайд: три кита современного дизайна.","transition":"fade","transitionDur":700,"elements":[{"id":"fute3","type":"text","x":100,"y":80,"w":1080,"h":80,"rot":0,"op":1,"text":"Философия платформы","fs":48,"fw":700,"color":"#c7d2fe","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":0,"enterDur":750,"morphId":""},{"id":"fute4","type":"shape","x":100,"y":200,"w":340,"h":420,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2))","rad":24,"enter":"fade-up","enterDelay":100,"enterDur":850,"morphId":"card-1"},{"id":"fute5","type":"text","x":130,"y":240,"w":280,"h":340,"rot":0,"op":1,"text":"01\n\nМинимализм\n\nНичего лишнего. Фокус исключительно на контенте, чистой типографике и пространстве.","fs":19,"fw":400,"color":"#ffffff","align":"left","pad":16,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":200,"enterDur":850,"morphId":""},{"id":"fute6","type":"shape","x":470,"y":200,"w":340,"h":420,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2))","rad":24,"enter":"fade-up","enterDelay":250,"enterDur":850,"morphId":"card-2"},{"id":"fute7","type":"text","x":500,"y":240,"w":280,"h":340,"rot":0,"op":1,"text":"02\n\nДинамика\n\nПлавные переходы и физически достоверные анимации создают непрерывный живой поток.","fs":19,"fw":400,"color":"#ffffff","align":"left","pad":16,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":350,"enterDur":850,"morphId":""},{"id":"fute8","type":"shape","x":840,"y":200,"w":340,"h":420,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(99, 102, 241, 0.2))","rad":24,"enter":"fade-up","enterDelay":400,"enterDur":850,"morphId":"card-3"},{"id":"fute9","type":"text","x":870,"y":240,"w":280,"h":340,"rot":0,"op":1,"text":"03\n\nИнтерактив\n\nВстроенные виджеты, живой код и медиа оживляют любую статичную идею на лету.","fs":19,"fw":400,"color":"#ffffff","align":"left","pad":16,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":500,"enterDur":850,"morphId":""}]},{"id":"fut103","bg":"#0a0a0f","notes":"Третий слайд: производительность и скорость.","transition":"parallax","transitionDur":900,"elements":[{"id":"fute10","type":"text","x":100,"y":120,"w":1080,"h":90,"rot":0,"op":1,"text":"Скорость света и 60 FPS","fs":46,"fw":700,"color":"#ffffff","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-right","enterDelay":0,"enterDur":900,"morphId":""},{"id":"fute11","type":"text","x":100,"y":240,"w":520,"h":360,"rot":0,"op":1,"text":"Никаких лагов, тяжелых плагинов или ожидания загрузки тяжеловесных пакетов.\n\nКаждый слайд рендерится на чистом WebGL и CSS с оптимизацией под аппаратное ускорение вашего устройства.\n\nПрезентации работают в любом офлайн-режиме прямо из коробки.","fs":20,"fw":300,"color":"#94a3b8","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-right","enterDelay":150,"enterDur":900,"morphId":""},{"id":"fute12","type":"shape","x":680,"y":140,"w":500,"h":440,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(14, 165, 233, 0.15), rgba(99, 102, 241, 0.25))","rad":32,"enter":"fade","enterDelay":100,"enterDur":1000,"morphId":"perf-box"},{"id":"fute12_sub","type":"text","x":720,"y":220,"w":420,"h":280,"rot":0,"op":1,"text":"99.9%\n\nПлавность рендеринга\nна любых экранах — от смартфонов до 4K дисплеев.","fs":22,"fw":500,"color":"#38bdf8","align":"center","pad":20,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":300,"enterDur":900,"morphId":""}]},{"id":"fut104","bg":"radial-gradient(circle at 10% 90%, #1e1b4b 0%, #020617 100%)","notes":"Четвертый слайд: технологии нового поколения.","transition":"blur","transitionDur":850,"elements":[{"id":"fute13","type":"text","x":100,"y":100,"w":1080,"h":80,"rot":0,"op":1,"text":"Технологии нового поколения","fs":46,"fw":700,"color":"#ffffff","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"blur","enterDelay":0,"enterDur":900,"morphId":""},{"id":"fute14","type":"text","x":100,"y":220,"w":1080,"h":380,"rot":0,"op":1,"text":"Мы стираем границы между презентацией и интерактивным веб-приложением.\n\nКаждое движение, трансформация текста и морфинг геометрических фигур продуманы до миллисекунды, чтобы удерживать абсолютное внимание вашей аудитории от первого до последнего слайда.\n\nВы больше не ограничены статичными картинками — создавайте живые истории.","fs":21,"fw":300,"color":"#94a3b8","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":200,"enterDur":900,"morphId":""}]},{"id":"fut105","bg":"#020617","notes":"Пятый слайд: иммерсивная экосистема виджетов.","transition":"zoom","transitionDur":900,"elements":[{"id":"fute15","type":"text","x":100,"y":100,"w":1080,"h":80,"rot":0,"op":1,"text":"Иммерсивная экосистема виджетов","fs":46,"fw":700,"color":"#ffffff","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":0,"enterDur":800,"morphId":""},{"id":"fute16","type":"shape","x":100,"y":220,"w":520,"h":380,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15))","rad":24,"enter":"fade-up","enterDelay":150,"enterDur":850,"morphId":""},{"id":"fute17","type":"text","x":140,"y":260,"w":440,"h":300,"rot":0,"op":1,"text":"Модульные виджеты\n\nИнтегрируйте YouTube, интерактивные графики, кастомные игры и формы обратной связи прямо в слайды без единой строчки сложного кода.","fs":20,"fw":300,"color":"#e2e8f0","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":250,"enterDur":850,"morphId":""},{"id":"fute18","type":"shape","x":660,"y":220,"w":520,"h":380,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(236, 72, 153, 0.15), rgba(99, 102, 241, 0.15))","rad":24,"enter":"fade-up","enterDelay":300,"enterDur":850,"morphId":""},{"id":"fute19","type":"text","x":700,"y":260,"w":440,"h":300,"rot":0,"op":1,"text":"Автономность и экспорт\n\nГотовая презентация упаковывается в самодостаточный автономный HTML-файл, который можно открыть на любом компьютере без интернета.","fs":20,"fw":300,"color":"#e2e8f0","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":400,"enterDur":850,"morphId":""}]},{"id":"fut106","bg":"radial-gradient(circle at 50% 20%, #312e81 0%, #020617 100%)","notes":"Шестой слайд: цитата.","transition":"fade","transitionDur":800,"elements":[{"id":"fute20","type":"text","x":90,"y":240,"w":1100,"h":180,"rot":0,"op":1,"text":"«Дизайн — это не то, как предмет выглядит, а то, как он работает».","fs":42,"fw":300,"color":"#ffffff","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"blur","enterDelay":0,"enterDur":1100,"morphId":""},{"id":"fute21","type":"text","x":140,"y":440,"w":1000,"h":60,"rot":0,"op":1,"text":"— Стив Джобс","fs":20,"fw":500,"color":"#6366f1","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":400,"enterDur":800,"morphId":""}]},{"id":"fut107","bg":"#0a0a0f","notes":"Седьмой слайд: глобальное влияние и адаптивность.","transition":"parallax","transitionDur":900,"elements":[{"id":"fute22","type":"text","x":100,"y":100,"w":1080,"h":80,"rot":0,"op":1,"text":"Адаптивность для любых экранов","fs":46,"fw":700,"color":"#ffffff","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-right","enterDelay":0,"enterDur":900,"morphId":""},{"id":"fute23","type":"text","x":100,"y":220,"w":1080,"h":360,"rot":0,"op":1,"text":"Интерфейсы WebDeck автоматически масштабируются под любые пропорции мониторов, проекторов и мобильных устройств.\n\nВаша презентация всегда выглядит безупречно, независимо от того, выступаете ли вы в огромном конференц-зале или проводите демо со смартфона в самолете.","fs":21,"fw":300,"color":"#94a3b8","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-right","enterDelay":200,"enterDur":900,"morphId":""}]},{"id":"fut108","bg":"radial-gradient(circle at 90% 10%, #1e1b4b 0%, #020617 100%)","notes":"Восьмой слайд: горизонты завтрашнего дня.","transition":"fade","transitionDur":800,"elements":[{"id":"fute24","type":"text","x":100,"y":100,"w":1080,"h":80,"rot":0,"op":1,"text":"Горизонты завтрашнего дня","fs":46,"fw":700,"color":"#ffffff","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":0,"enterDur":800,"morphId":""},{"id":"fute25","type":"shape","x":100,"y":220,"w":340,"h":380,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(56, 189, 248, 0.1))","rad":24,"enter":"fade-up","enterDelay":100,"enterDur":850,"morphId":""},{"id":"fute26","type":"text","x":130,"y":260,"w":280,"h":300,"rot":0,"op":1,"text":"ИИ-ассистент\n\nГенерация структуры презентаций и текстов на основе одного промпта в реальном времени.","fs":19,"fw":300,"color":"#e2e8f0","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":200,"enterDur":850,"morphId":""},{"id":"fute27","type":"shape","x":470,"y":220,"w":340,"h":380,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(168, 85, 247, 0.1))","rad":24,"enter":"fade-up","enterDelay":250,"enterDur":850,"morphId":""},{"id":"fute28","type":"text","x":500,"y":260,"w":280,"h":300,"rot":0,"op":1,"text":"Облачная синхронизация\n\nМгновенный обмен проектами с коллегами и совместное редактирование в один клик.","fs":19,"fw":300,"color":"#e2e8f0","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":350,"enterDur":850,"morphId":""},{"id":"fute29","type":"shape","x":840,"y":220,"w":340,"h":380,"rot":0,"op":1,"bg":"linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(244, 63, 94, 0.1))","rad":24,"enter":"fade-up","enterDelay":400,"enterDur":850,"morphId":""},{"id":"fute30","type":"text","x":870,"y":260,"w":280,"h":300,"rot":0,"op":1,"text":"Векторные темы\n\nДинамические цветовые палитры, подстраивающиеся под настроение и брендбук компании.","fs":19,"fw":300,"color":"#e2e8f0","align":"left","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":450,"enterDur":850,"morphId":""}]},{"id":"fut109","bg":"#020617","notes":"Девятый слайд: призыв к действию.","transition":"zoom","transitionDur":900,"elements":[{"id":"fute31","type":"text","x":100,"y":180,"w":1080,"h":120,"rot":0,"op":1,"text":"Готовы создать свою историю?","fs":52,"fw":800,"color":"#ffffff","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":0,"enterDur":900,"morphId":""},{"id":"fute32","type":"text","x":200,"y":320,"w":880,"h":80,"rot":0,"op":1,"text":"Откройте редактор WebDeck и воплотите самые смелые идеи в жизнь уже сегодня.","fs":22,"fw":300,"color":"#94a3b8","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"fade-up","enterDelay":200,"enterDur":900,"morphId":""}]},{"id":"fut110","bg":"radial-gradient(circle at 50% 50%, #4338ca 0%, #020617 100%)","notes":"Десятый финальный слайд.","transition":"zoom","transitionDur":900,"elements":[{"id":"fute33","type":"text","x":40,"y":260,"w":1200,"h":220,"rot":0,"op":1,"text":"Будущее наступило.","fs":88,"fw":800,"color":"#ffffff","align":"center","pad":0,"bg":"transparent","rad":0,"enter":"scale","enterDelay":0,"enterDur":1200,"morphId":""}]}]};
+var DECK={"id":"folio-teachers","name":"Лекции, которые слушают","category":"Образование","desc":"Аудитория, знание, свет лампы: чернильный синий, янтарь, терракот и циан. Живые фото, движущиеся фоны, опросы и защиты.","player":{"controls":"auto","hideDelay":2000,"hotZone":140,"pos":"bottom","hint":true,"hideCursor":false,"progress":true,"counter":true,"loop":true},"slides":[{"transition":"morph","notes":"Фото дышит по Ken Burns 28 с. Заголовок перетекает в слайды 2 и 3.","background":{"type":"gradient","color":"#0a1024","legacy":"","grad":{"kind":"radial","angle":135,"px":28,"py":20,"stops":[{"c":"#1d3a8f","p":0},{"c":"#070b18","p":80}]},"img":{"src":"https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":50,"py":38,"scale":106,"blur":2,"bright":62,"sat":118,"gray":0},"tint":{"c":"#0a1024","a":52},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"kenburns","dur":28},"elements":[{"type":"rect","x":90,"y":150,"w":64,"h":6,"bg":"#f59e0b","rad":3,"enter":"fade-right","id":"6eb881104eaa4544986c2c43632b47db","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":170,"w":900,"h":204,"text":"Лекции,\nкоторые слушают.","fs":86,"fw":800,"color":"#ffffff","morphId":"hero","enter":"fade-up","enterDur":1100,"id":"33cfb652d9d3414e8501e4b58931bf52","enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":392,"w":660,"h":90,"text":"Опросы, пошаговые разборы и живой код прямо в слайде. Работает на проекторе без интернета.","fs":25,"fw":300,"color":"#c7d7fb","enter":"fade-up","enterDelay":240,"id":"713433e4865b44d5923d505880a51673","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":510,"w":214,"h":52,"bg":"#f59e0b","rad":26,"enter":"fade-up","enterDelay":420,"id":"0a750f8284a044eebddfa0f1e9fd77f0","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":524,"w":214,"h":30,"text":"Начать за вечер","fs":16,"fw":700,"color":"#1a1206","align":"center","enter":"fade-up","enterDelay":460,"id":"9666295f5e444967a57cd03d66e5b818","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":900,"y":560,"w":290,"h":60,"text":"47 минут\nдо первого отвлечённого студента","fs":15,"fw":500,"color":"#7dd3fc","align":"right","enter":"fade-left","enterDelay":560,"id":"89b6b58273a14b9b92a0f7b34ad267b5","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"62b4fab063f741ae91995e3e89550aa3","bg":"radial-gradient(circle at 28% 20%, #1d3a8f 0%, #070b18 80%)","transitionDur":900},{"transition":"morph","background":{"type":"gradient","color":"#0b1020","legacy":"","grad":{"kind":"linear","angle":150,"px":50,"py":50,"stops":[{"c":"#131c3a","p":0},{"c":"#080c1a","p":100}]},"img":{"src":"https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":72,"py":50,"scale":104,"blur":6,"bright":40,"sat":70,"gray":35},"tint":{"c":"#0b1020","a":66},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"drift","dur":34},"elements":[{"type":"text","x":90,"y":80,"w":1000,"h":130,"text":"Три причины, почему аудитория теряется","fs":58,"fw":800,"color":"#ffffff","morphId":"hero","id":"6adb5a99e5bb4da1a76679d1db77e3e0","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":256,"w":348,"h":300,"bg":"#101a36","rad":22,"enter":"fade-up","id":"76c260afc0554749867e7f4ef8b43d52","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":256,"w":348,"h":5,"bg":"#f43f5e","rad":3,"enter":"fade-right","enterDelay":80,"id":"8d27c9852d514860942376e7d4994957","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":124,"y":296,"w":280,"h":50,"text":"01","fs":34,"fw":800,"color":"#f43f5e","enter":"fade-up","enterDelay":120,"id":"bc9b8e631757425fb5107b20fc1655ad","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":124,"y":356,"w":280,"h":170,"text":"Монолог вместо диалога. Студент — зритель, а не участник.","fs":21,"fw":400,"color":"#dbe4fb","enter":"fade-up","enterDelay":180,"id":"414eb2ee492441f19cf2dfe430db2aa6","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":466,"y":256,"w":348,"h":300,"bg":"#101a36","rad":22,"enter":"fade-up","enterDelay":90,"id":"6a733dc39f0f45f7be7665ae9cc7703f","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":466,"y":256,"w":348,"h":5,"bg":"#f59e0b","rad":3,"enter":"fade-right","enterDelay":170,"id":"1e9069eb3e054b3aae5969560ab8e3ee","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":500,"y":296,"w":280,"h":50,"text":"02","fs":34,"fw":800,"color":"#f59e0b","enter":"fade-up","enterDelay":210,"id":"195596e09a374f7587c7de84671d17fe","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":500,"y":356,"w":280,"h":170,"text":"Нет обратной связи. Вы не знаете, что поняли, а что нет.","fs":21,"fw":400,"color":"#dbe4fb","enter":"fade-up","enterDelay":270,"id":"97681d3d646147219534fc412d2da17c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":842,"y":256,"w":348,"h":300,"bg":"#101a36","rad":22,"enter":"fade-up","enterDelay":180,"id":"aa51a8bf6d2d4a4585d1de2f7d9d738b","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":842,"y":256,"w":348,"h":5,"bg":"#22d3ee","rad":3,"enter":"fade-right","enterDelay":260,"id":"08f82605b90540948272add57e641a8d","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":876,"y":296,"w":280,"h":50,"text":"03","fs":34,"fw":800,"color":"#22d3ee","enter":"fade-up","enterDelay":300,"id":"3961c0e7c2af4c4eafdd7e9a53c54b33","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":876,"y":356,"w":280,"h":170,"text":"Материал не оживает. Схемы и процессы статичны.","fs":21,"fw":400,"color":"#dbe4fb","enter":"fade-up","enterDelay":360,"id":"d7881920565c41da9b9dbc49f42addb6","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"379765f3123549eb8d28390f1091ac40","bg":"linear-gradient(150deg, #131c3a 0%, #080c1a 100%)","notes":"","transitionDur":900},{"transition":"morph","background":{"type":"gradient","color":"#0a1024","legacy":"","grad":{"kind":"radial","angle":135,"px":74,"py":78,"stops":[{"c":"#1d3a8f","p":0},{"c":"#070b18","p":80}]},"img":{"src":"https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":26,"py":60,"scale":108,"blur":3,"bright":58,"sat":124,"gray":0},"tint":{"c":"#0a1024","a":56},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"kenburns","dur":30},"elements":[{"type":"text","x":90,"y":160,"w":940,"h":196,"text":"Один инструмент\nвместо пяти","fs":80,"fw":800,"color":"#ffffff","morphId":"hero","enter":"fade-up","enterDur":1100,"id":"a9f526cebb6142d9b566e9d9acd3b0b8","enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":392,"w":120,"h":42,"bg":"#f59e0b","rad":21,"enter":"fade-up","enterDelay":200,"id":"88441845b43b4c41b7f40ed7cff6bf5d","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":402,"w":120,"h":26,"text":"слайды","fs":15,"fw":700,"color":"#1a1206","align":"center","enter":"fade-up","enterDelay":230,"id":"c8d0964612bf41f98d9ab65dd2d3b44c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":224,"y":392,"w":120,"h":42,"bg":"#22d3ee","rad":21,"enter":"fade-up","enterDelay":270,"id":"31bf38a573f64830b9ba009dac87d4cb","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":224,"y":402,"w":120,"h":26,"text":"опросы","fs":15,"fw":700,"color":"#04222a","align":"center","enter":"fade-up","enterDelay":300,"id":"3d6c243570904769a9bcf7464e57a1be","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":358,"y":392,"w":136,"h":42,"bg":"#a3e635","rad":21,"enter":"fade-up","enterDelay":340,"id":"d293b8c866b94586a5f6bbb8448d8590","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":358,"y":402,"w":136,"h":26,"text":"анимация","fs":15,"fw":700,"color":"#16210a","align":"center","enter":"fade-up","enterDelay":370,"id":"0e286464b911458faafc9d380dbf924c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":508,"y":392,"w":106,"h":42,"bg":"#e879f9","rad":21,"enter":"fade-up","enterDelay":410,"id":"fbaca75b28c64db288e5c4328c28bdce","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":508,"y":402,"w":106,"h":26,"text":"код","fs":15,"fw":700,"color":"#2a0a2e","align":"center","enter":"fade-up","enterDelay":440,"id":"e071509a5ab8406e9a6259399096b458","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":628,"y":392,"w":150,"h":42,"bg":"#fb7185","rad":21,"enter":"fade-up","enterDelay":480,"id":"be89347047fa47c890ce6b8aedd225c8","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":628,"y":402,"w":150,"h":26,"text":"офлайн","fs":15,"fw":700,"color":"#2c0710","align":"center","enter":"fade-up","enterDelay":510,"id":"b0804ac5ff524b5bb235deeb4fcde38c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":474,"w":700,"h":70,"text":"Всё собирается в один HTML-файл. Отправили в чат потока — открыли без установки.","fs":22,"fw":300,"color":"#c7d7fb","enter":"fade-up","enterDelay":580,"id":"d5ad7c3e62bb4c59bbfd8a78e5f65356","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"4b52e0967d3b4421bc8edfd9c20b883c","bg":"radial-gradient(circle at 74% 78%, #1d3a8f 0%, #070b18 80%)","notes":"","transitionDur":900},{"transition":"slide","background":{"type":"gradient","color":"#0b1020","legacy":"","grad":{"kind":"linear","angle":120,"px":50,"py":50,"stops":[{"c":"#101a36","p":0},{"c":"#080c1a","p":100}]},"img":{"src":"","fit":"cover","px":50,"py":50,"scale":100,"blur":0,"bright":100,"sat":100,"gray":0},"tint":{"c":"#000000","a":0},"pat":{"id":"grid","c":"#7dd3fc","a":7,"size":46},"motion":"none","dur":24},"elements":[{"type":"text","x":90,"y":70,"w":1000,"h":70,"text":"Сценарий 1 · Лекция с живым опросом","fs":40,"fw":700,"color":"#ffffff","morphId":"scene","id":"7dbac88e526c480f94f65d43a21f00d8","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":172,"w":660,"h":88,"bg":"#132043","rad":18,"enter":"fade-right","id":"e5c8da8af686496893a57f93114720ca","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":122,"y":198,"w":600,"h":44,"text":"Какой метод оценки вы используете чаще?","fs":23,"fw":600,"color":"#fbbf24","enter":"fade-right","enterDelay":90,"id":"7ac695e0567b451a909664fbceef933e","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":282,"w":318,"h":64,"bg":"#1b2b55","rad":14,"enter":"fade-up","enterDelay":160,"id":"79256d5311804b0e924dbdde1bdb6c4b","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":282,"w":133,"h":64,"bg":"#22d3ee","rad":14,"op":0.22,"enter":"fade-right","enterDelay":240,"id":"822fc0440c9d404787b2d4de8b523157","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":112,"y":300,"w":280,"h":30,"text":"Тест в конце семестра","fs":17,"fw":500,"color":"#e6f6fd","enter":"fade-up","enterDelay":200,"id":"c32c50c24feb42568d39b32f787d1af3","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":112,"y":356,"w":280,"h":28,"text":"42% · 68 голосов","fs":15,"fw":700,"color":"#22d3ee","enter":"fade-up","enterDelay":300,"id":"347e502beb164acdb13eaf69340d4619","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":432,"y":282,"w":318,"h":64,"bg":"#1b2b55","rad":14,"enter":"fade-up","enterDelay":230,"id":"34d7b0109e044df6b91ea99c8a37f25c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":432,"y":282,"w":185,"h":64,"bg":"#a3e635","rad":14,"op":0.22,"enter":"fade-right","enterDelay":310,"id":"ea48c47cba5a4a0599f59b87530c49b2","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":454,"y":300,"w":280,"h":30,"text":"Опрос на каждой лекции","fs":17,"fw":500,"color":"#eefadb","enter":"fade-up","enterDelay":270,"id":"a12f22e340dd45f4944d540cdd300333","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":454,"y":356,"w":280,"h":28,"text":"58% · 94 голоса","fs":15,"fw":700,"color":"#a3e635","enter":"fade-up","enterDelay":370,"id":"4544d45c71424fb49e616e9fb6ca31b0","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"img","x":790,"y":172,"w":400,"h":384,"src":"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900&q=80&auto=format&fit=crop","fit":"cover","rad":20,"enter":"fade-left","enterDelay":180,"id":"02ec43a0083a4a8ead0b788de3870059","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":790,"y":576,"w":400,"h":50,"text":"Голосуют с телефона. Результат — на экране мгновенно.","fs":16,"fw":400,"color":"#93c5fd","enter":"fade-up","enterDelay":420,"id":"553754a439c94d829aa92eed0d1d4b64","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"6e9e6eb0d9e64cb9bf2506869f41c17c","bg":"linear-gradient(120deg, #101a36 0%, #080c1a 100%)","notes":"","transitionDur":900},{"transition":"morph","background":{"type":"gradient","color":"#08122a","legacy":"","grad":{"kind":"radial","angle":135,"px":18,"py":30,"stops":[{"c":"#123a6b","p":0},{"c":"#05091a","p":78}]},"img":{"src":"https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":78,"py":50,"scale":106,"blur":4,"bright":50,"sat":112,"gray":0},"tint":{"c":"#08122a","a":64},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"zoom","dur":24},"elements":[{"type":"text","x":90,"y":70,"w":1000,"h":70,"text":"Сценарий 2 · Пошаговый разбор","fs":40,"fw":700,"color":"#ffffff","morphId":"scene","id":"5fcd32a97abb4517a757f1ba440e7761","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":178,"w":320,"h":180,"text":"01","fs":132,"fw":800,"color":"#f59e0b","morphId":"step","enter":"scale","id":"b407c488d2064906a35943e2193af55a","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":372,"w":56,"h":5,"bg":"#f59e0b","rad":3,"enter":"fade-right","enterDelay":140,"id":"19dcef916a1e423bb4d723e9077bb17c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":404,"w":600,"h":60,"text":"Инициация: ДНК расплетается","fs":30,"fw":700,"color":"#ffffff","enter":"fade-up","enterDelay":180,"id":"691ea22176574a82b1fbe78c6511ae05","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":478,"w":600,"h":110,"text":"Схема морфится из шага в шаг. Зритель видит процесс, а не четыре разрозненные картинки.","fs":20,"fw":300,"color":"#bfdbfe","enter":"fade-up","enterDelay":260,"id":"51c8d72352e74bf284040a95499a53c9","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":740,"y":178,"w":112,"h":112,"bg":"#f59e0b","rad":18,"enter":"scale","enterDelay":140,"id":"faf173e163c54fdd83408cdae1186424","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":868,"y":178,"w":112,"h":112,"bg":"#22d3ee","rad":18,"op":0.34,"enter":"scale","enterDelay":220,"id":"ef70e150fa36482c82fba76ac83f2030","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":996,"y":178,"w":112,"h":112,"bg":"#a3e635","rad":18,"op":0.34,"enter":"scale","enterDelay":300,"id":"4c613dcb8bf24da182139d66eaccc1b6","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":1124,"y":178,"w":66,"h":112,"bg":"#e879f9","rad":18,"op":0.34,"enter":"scale","enterDelay":380,"id":"6ebed407eef2461284b6337c91d4d521","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":740,"y":316,"w":450,"h":40,"text":"Четыре шага · один непрерывный переход","fs":16,"fw":600,"color":"#7dd3fc","enter":"fade-up","enterDelay":440,"id":"fe7ed0e95d3f42e7bd8558c1dbe60587","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"0e63f4a089cc48bba23f3bc0a3f2047b","bg":"radial-gradient(circle at 18% 30%, #123a6b 0%, #05091a 78%)","notes":"","transitionDur":900},{"transition":"morph","background":{"type":"gradient","color":"#0b1020","legacy":"","grad":{"kind":"linear","angle":100,"px":50,"py":50,"stops":[{"c":"#141d3d","p":0},{"c":"#080c1a","p":100}]},"img":{"src":"","fit":"cover","px":50,"py":50,"scale":100,"blur":0,"bright":100,"sat":100,"gray":0},"tint":{"c":"#000000","a":0},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"none","dur":24},"elements":[{"type":"text","x":90,"y":70,"w":1000,"h":70,"text":"Сценарий 3 · Мастер-класс с практикой","fs":40,"fw":700,"color":"#ffffff","morphId":"scene","id":"f3659345444f48e7ab922620d380d252","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"img","x":90,"y":170,"w":548,"h":440,"src":"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1100&q=80&auto=format&fit=crop","fit":"cover","rad":22,"enter":"fade-right","id":"e7c8f96e1b5f40c7bf6d0f141e82b47c","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":170,"w":548,"h":440,"bg":"linear-gradient(180deg,transparent 40%,rgba(8,12,26,.92))","rad":22,"enter":"fade","enterDelay":90,"id":"0d877dc547184e4eaed313d0acbca151","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":126,"y":464,"w":470,"h":46,"text":"Теория","fs":32,"fw":700,"color":"#fbbf24","enter":"fade-up","enterDelay":180,"id":"d716e379fdf94033bbfde85ce93213ec","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":126,"y":516,"w":470,"h":70,"text":"Короткий блок с анимированной схемой. Нить не теряется.","fs":18,"fw":300,"color":"#e2e8f8","enter":"fade-up","enterDelay":240,"id":"7c517f43e6b641299cb079cc389de6de","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":670,"y":170,"w":520,"h":440,"bg":"#132043","rad":22,"enter":"fade-left","enterDelay":120,"id":"bfe987c9a1ae4586a8895ccb7901b7b5","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":670,"y":170,"w":520,"h":5,"bg":"#a3e635","rad":3,"enter":"fade-right","enterDelay":200,"id":"bba75786c6334caf8c0068bff358cc96","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":706,"y":212,"w":450,"h":46,"text":"Практика","fs":32,"fw":700,"color":"#a3e635","enter":"fade-left","enterDelay":240,"id":"08a32df736ed430cacd42382e77194a8","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":706,"y":286,"w":448,"h":120,"bg":"#0a1226","rad":14,"enter":"fade-up","enterDelay":300,"id":"22702ff22340498e8a307ce75715b1a4","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":728,"y":308,"w":404,"h":80,"text":"// задание прямо в слайде\nfunction grade(a){ return a > 60 }","fs":15,"fw":400,"color":"#7dd3fc","enter":"fade-up","enterDelay":340,"id":"2823f2cb6569487daabca37032876681","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":706,"y":432,"w":450,"h":140,"text":"Студент выполняет упражнение, не выходя из контекста лекции. Результат виден сразу.","fs":19,"fw":300,"color":"#dbe4fb","enter":"fade-left","enterDelay":400,"id":"b639590df73247bbaffbfb2f7a78bd28","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"ee2edef99db54ea984ab4e97d029fcf6","bg":"linear-gradient(100deg, #141d3d 0%, #080c1a 100%)","notes":"","transitionDur":900},{"transition":"morph","background":{"type":"gradient","color":"#0a0f22","legacy":"","grad":{"kind":"radial","angle":135,"px":50,"py":10,"stops":[{"c":"#1a2a55","p":0},{"c":"#070b18","p":82}]},"img":{"src":"https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":50,"py":30,"scale":104,"blur":5,"bright":42,"sat":88,"gray":20},"tint":{"c":"#0a0f22","a":68},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"drift","dur":32},"elements":[{"type":"text","x":90,"y":70,"w":1000,"h":70,"text":"Сценарий 4 · Защита проекта","fs":40,"fw":700,"color":"#ffffff","morphId":"scene","id":"554519ce3ae347ae9806f39fbda0b951","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":156,"w":1100,"h":46,"text":"Каркас, который принимают комиссии без правок структуры.","fs":22,"fw":300,"color":"#bfdbfe","id":"781bae930b784d928660bcf7cf630832","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":90,"y":236,"w":266,"h":320,"bg":"#101a36","rad":18,"enter":"fade-up","id":"ec9218623faf43049e78b72054fb8fc9","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":118,"y":266,"w":44,"h":44,"bg":"#f43f5e","rad":12,"enter":"scale","enterDelay":80,"id":"d8a98b8860bd446692539d8bb0a8348b","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":118,"y":332,"w":210,"h":40,"text":"Задача","fs":24,"fw":700,"color":"#ffffff","enter":"fade-up","enterDelay":130,"id":"6d4ed02619014ea885f5e5d494b57794","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":118,"y":382,"w":210,"h":150,"text":"Что болело и у кого. Одна фраза, одна цифра.","fs":17,"fw":300,"color":"#c9d5f2","enter":"fade-up","enterDelay":180,"id":"df5d7a1c4743429294d916568d6aa632","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":378,"y":236,"w":266,"h":320,"bg":"#101a36","rad":18,"enter":"fade-up","enterDelay":90,"id":"c9cc0fe949e24618bec5e9940d3c6efe","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":406,"y":266,"w":44,"h":44,"bg":"#f59e0b","rad":12,"enter":"scale","enterDelay":170,"id":"dab28bb0b9234ac58f73b4e73d028a60","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":406,"y":332,"w":210,"h":40,"text":"Гипотеза","fs":24,"fw":700,"color":"#ffffff","enter":"fade-up","enterDelay":220,"id":"602b6ea998e84acf80adf1aefecfcf50","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":406,"y":382,"w":210,"h":150,"text":"Что предположили и почему это могло сработать.","fs":17,"fw":300,"color":"#c9d5f2","enter":"fade-up","enterDelay":270,"id":"9d2138559dab4e59a06dc3c74613b73d","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":666,"y":236,"w":266,"h":320,"bg":"#101a36","rad":18,"enter":"fade-up","enterDelay":180,"id":"f48755536efe43fc8ddb557d626a942d","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":694,"y":266,"w":44,"h":44,"bg":"#22d3ee","rad":12,"enter":"scale","enterDelay":260,"id":"9541a5e9adc247be81fd108050128bbf","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":694,"y":332,"w":210,"h":40,"text":"Эксперимент","fs":24,"fw":700,"color":"#ffffff","enter":"fade-up","enterDelay":310,"id":"026216d3bcbf45cfbb6c3dddf78b8009","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":694,"y":382,"w":210,"h":150,"text":"Что проверили, как измеряли, сколько итераций.","fs":17,"fw":300,"color":"#c9d5f2","enter":"fade-up","enterDelay":360,"id":"788295ead54c42d68b29cee99e08a4df","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":954,"y":236,"w":236,"h":320,"bg":"#16233f","rad":18,"enter":"fade-up","enterDelay":270,"id":"344dfba02ee24fc2ba3c36fa86184c6b","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":982,"y":266,"w":44,"h":44,"bg":"#a3e635","rad":12,"enter":"scale","enterDelay":350,"id":"e9d234d27f2e43c0a539e2a085dcc85b","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":982,"y":332,"w":180,"h":40,"text":"Вывод","fs":24,"fw":700,"color":"#a3e635","enter":"fade-up","enterDelay":400,"id":"650e3befe56640eaaeed077bcdcf5731","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":982,"y":382,"w":180,"h":150,"text":"Цифры и следующий шаг.","fs":17,"fw":300,"color":"#e2f7c9","enter":"fade-up","enterDelay":450,"id":"237b0e7aee5946188ef89f2af33c0ae4","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"00aa96eeeda1477fb016ca754f3a7dde","bg":"radial-gradient(circle at 50% 10%, #1a2a55 0%, #070b18 82%)","notes":"","transitionDur":900},{"transition":"zoom","background":{"type":"gradient","color":"#0a1024","legacy":"","grad":{"kind":"radial","angle":135,"px":50,"py":50,"stops":[{"c":"#1d3a8f","p":0},{"c":"#05091a","p":82}]},"img":{"src":"https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":50,"py":50,"scale":110,"blur":8,"bright":36,"sat":76,"gray":40},"tint":{"c":"#0a1024","a":70},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"zoom","dur":22},"elements":[{"type":"text","x":120,"y":188,"w":1040,"h":190,"text":"−40%","fs":158,"fw":800,"color":"#f59e0b","align":"center","morphId":"metric","enter":"scale","enterDur":1000,"id":"40a2530311944308aefe989fb37ba079","enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":220,"y":396,"w":840,"h":60,"text":"отвлечений на лекции за один семестр","fs":26,"fw":300,"color":"#dbe4fb","align":"center","enter":"fade-up","enterDelay":220,"id":"3edd03fce01443b2ad602e9e1455628a","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":560,"y":478,"w":160,"h":4,"bg":"#22d3ee","rad":2,"enter":"fade-left","enterDelay":340,"id":"2df7693ebbcf4120a76173f4b5ca422a","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":220,"y":510,"w":840,"h":40,"text":"Кафедра прикладной математики · 3 месяца с Folio","fs":17,"fw":500,"color":"#7dd3fc","align":"center","enter":"fade-up","enterDelay":400,"id":"1634dbc30eb04274a3857808b7dc5571","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"ecee046ac06649688d3d5aad120b920c","bg":"radial-gradient(circle at 50% 50%, #1d3a8f 0%, #05091a 82%)","notes":"","transitionDur":900},{"transition":"morph","background":{"type":"gradient","color":"#08122a","legacy":"","grad":{"kind":"radial","angle":135,"px":50,"py":50,"stops":[{"c":"#123a6b","p":0},{"c":"#05091a","p":82}]},"img":{"src":"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":50,"py":50,"scale":110,"blur":8,"bright":38,"sat":90,"gray":30},"tint":{"c":"#08122a","a":70},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"zoom","dur":24},"elements":[{"type":"text","x":120,"y":188,"w":1040,"h":190,"text":"+65%","fs":158,"fw":800,"color":"#a3e635","align":"center","morphId":"metric","enter":"scale","enterDur":1000,"id":"fd095f41125148e9928dc3c09de42937","enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":220,"y":396,"w":840,"h":60,"text":"вовлечённости: ответы в опросах и вопросы из зала","fs":26,"fw":300,"color":"#dbe4fb","align":"center","enter":"fade-up","enterDelay":220,"id":"b0d1de929d22488c9c6df3431682079d","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":560,"y":478,"w":160,"h":4,"bg":"#a3e635","rad":2,"enter":"fade-left","enterDelay":340,"id":"721685a6336a430ab5bcd77e497338c6","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":220,"y":510,"w":840,"h":40,"text":"Оценка курса студентами — 9.4 из 10","fs":17,"fw":500,"color":"#bef264","align":"center","enter":"fade-up","enterDelay":400,"id":"4eaeb96374c644b6ac55f2181f9b4704","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"dd76548cafdd4f65aba5c400264024c7","bg":"radial-gradient(circle at 50% 50%, #123a6b 0%, #05091a 82%)","notes":"","transitionDur":900},{"transition":"slide","background":{"type":"gradient","color":"#0b1020","legacy":"","grad":{"kind":"linear","angle":160,"px":50,"py":50,"stops":[{"c":"#121b39","p":0},{"c":"#080c1a","p":100}]},"img":{"src":"","fit":"cover","px":50,"py":50,"scale":100,"blur":0,"bright":100,"sat":100,"gray":0},"tint":{"c":"#000000","a":0},"pat":{"id":"dots","c":"#f59e0b","a":9,"size":34},"motion":"none","dur":24},"elements":[{"type":"text","x":90,"y":70,"w":1000,"h":70,"text":"Вовлечённость по неделям","fs":40,"fw":700,"color":"#ffffff","id":"3a0448af186b474cafc2e0b8e14376a4","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":148,"w":900,"h":40,"text":"Доля студентов, отвечающих в опросах. Восемь недель наблюдения.","fs":19,"fw":300,"color":"#93c5fd","id":"fe0d5199de8f4be49ec679bb56f6d14a","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":96,"y":430,"w":118,"h":80,"bg":"#f43f5e","rad":8,"enter":"fade-up","enterDelay":100,"id":"45844fa477214edcae335ff0f685ddc5","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":96,"y":522,"w":118,"h":28,"text":"Н1 · 18%","fs":14,"fw":600,"color":"#fda4af","align":"center","enter":"fade-up","enterDelay":140,"id":"21b8b987ad0442c69a81a45a25ad627b","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":234,"y":396,"w":118,"h":114,"bg":"#fb7185","rad":8,"enter":"fade-up","enterDelay":170,"id":"d8420eb5290649f8bcb8337ec34ba190","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":234,"y":522,"w":118,"h":28,"text":"Н2 · 26%","fs":14,"fw":600,"color":"#fda4af","align":"center","enter":"fade-up","enterDelay":210,"id":"430ad9a3c6344c7482ace80cb6be1799","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":372,"y":352,"w":118,"h":158,"bg":"#f59e0b","rad":8,"enter":"fade-up","enterDelay":240,"id":"c30bd9c619294be897c1617bbae4ba07","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":372,"y":522,"w":118,"h":28,"text":"Н3 · 35%","fs":14,"fw":600,"color":"#fcd34d","align":"center","enter":"fade-up","enterDelay":280,"id":"cbacdb54528644198761c786541417de","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":510,"y":312,"w":118,"h":198,"bg":"#fbbf24","rad":8,"enter":"fade-up","enterDelay":310,"id":"5d41c3373f3a4352a0f7890fa2ccb0eb","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":510,"y":522,"w":118,"h":28,"text":"Н4 · 44%","fs":14,"fw":600,"color":"#fcd34d","align":"center","enter":"fade-up","enterDelay":350,"id":"13ad991718f447459e350daf85bc63fa","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":648,"y":268,"w":118,"h":242,"bg":"#22d3ee","rad":8,"enter":"fade-up","enterDelay":380,"id":"e7243905cc52496eb32b68ae0f0223f5","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":648,"y":522,"w":118,"h":28,"text":"Н5 · 54%","fs":14,"fw":600,"color":"#7dd3fc","align":"center","enter":"fade-up","enterDelay":420,"id":"25fdfa85a1684287a103025e18419d36","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":786,"y":232,"w":118,"h":278,"bg":"#38bdf8","rad":8,"enter":"fade-up","enterDelay":450,"id":"91517269cb554cfeb1791b4c7526633e","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":786,"y":522,"w":118,"h":28,"text":"Н6 · 62%","fs":14,"fw":600,"color":"#7dd3fc","align":"center","enter":"fade-up","enterDelay":490,"id":"86254f7db25d42ec9375f188a1ddfbc3","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":924,"y":204,"w":118,"h":306,"bg":"#a3e635","rad":8,"enter":"fade-up","enterDelay":520,"id":"72f57753cfde484ebcca738683865276","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":924,"y":522,"w":118,"h":28,"text":"Н7 · 68%","fs":14,"fw":700,"color":"#bef264","align":"center","enter":"fade-up","enterDelay":560,"id":"46b8dddc17fa4670aa85c4ae1663d77e","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":1062,"y":184,"w":118,"h":326,"bg":"#bef264","rad":8,"enter":"fade-up","enterDelay":590,"id":"4c26f646593548939f10faa350b52a35","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":1062,"y":522,"w":118,"h":28,"text":"Н8 · 73%","fs":14,"fw":700,"color":"#ecfccb","align":"center","enter":"fade-up","enterDelay":630,"id":"72fb2804e6c645b4b9fdbc098ac0887c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"6150e81e949e4c5f847bb0183fea6a5a","bg":"linear-gradient(160deg, #121b39 0%, #080c1a 100%)","notes":"","transitionDur":900},{"transition":"fade","background":{"type":"gradient","color":"#0a0f22","legacy":"","grad":{"kind":"linear","angle":140,"px":50,"py":50,"stops":[{"c":"#131c3a","p":0},{"c":"#070b18","p":100}]},"img":{"src":"","fit":"cover","px":50,"py":50,"scale":100,"blur":0,"bright":100,"sat":100,"gray":0},"tint":{"c":"#000000","a":0},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"none","dur":24},"elements":[{"type":"text","x":90,"y":80,"w":1000,"h":70,"text":"Работает там, где нет ничего","fs":44,"fw":700,"color":"#ffffff","id":"9248a644c998482780fce6def006f9bf","enter":"fade-up","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"img","x":90,"y":190,"w":348,"h":200,"src":"https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80&auto=format&fit=crop","fit":"cover","rad":18,"enter":"fade-up","id":"42c6099f7cb74b6cb1d460fd2443fbad","enterDur":750,"enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":412,"w":348,"h":40,"text":"Офлайн","fs":24,"fw":700,"color":"#f59e0b","enter":"fade-up","enterDelay":90,"id":"d0e818a2136941dbb69f714ecd802ca5","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":90,"y":462,"w":348,"h":120,"text":"Один HTML-файл открывается на любом проекторе без сети.","fs":18,"fw":300,"color":"#c9d5f2","enter":"fade-up","enterDelay":140,"id":"cebebe7c62a34366a82cc949ff172620","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"img","x":466,"y":190,"w":348,"h":200,"src":"https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80&auto=format&fit=crop","fit":"cover","rad":18,"enter":"fade-up","enterDelay":100,"id":"65e33b71fc2e4fa7b8572b54ddd7a602","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":466,"y":412,"w":348,"h":40,"text":"Без учёток","fs":24,"fw":700,"color":"#22d3ee","enter":"fade-up","enterDelay":190,"id":"90f13d0f396c4ef7b6408605bd411b9c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":466,"y":462,"w":348,"h":120,"text":"Студентам не нужно регистрироваться, чтобы голосовать.","fs":18,"fw":300,"color":"#c9d5f2","enter":"fade-up","enterDelay":240,"id":"0f922e3cac134023928f27bf3a4fa1fc","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"img","x":842,"y":190,"w":348,"h":200,"src":"https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80&auto=format&fit=crop","fit":"cover","rad":18,"enter":"fade-up","enterDelay":200,"id":"53e8c4208cb746ec90c35659c761a3be","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":842,"y":412,"w":348,"h":40,"text":"Одним файлом","fs":24,"fw":700,"color":"#a3e635","enter":"fade-up","enterDelay":290,"id":"4e2bf183c050450d8c1375695a1fd80c","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":842,"y":462,"w":348,"h":120,"text":"Отправили в чат потока — открыли без установки.","fs":18,"fw":300,"color":"#c9d5f2","enter":"fade-up","enterDelay":340,"id":"c1a7ce0b5372410080f99f5f0a997ac3","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"c5e8c276b86f44e683452e16f413d9b2","bg":"linear-gradient(140deg, #131c3a 0%, #070b18 100%)","notes":"","transitionDur":900},{"transition":"zoom","background":{"type":"gradient","color":"#0a1024","legacy":"","grad":{"kind":"radial","angle":135,"px":50,"py":42,"stops":[{"c":"#1d3a8f","p":0},{"c":"#05091a","p":84}]},"img":{"src":"https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1800&q=80&auto=format&fit=crop","fit":"cover","px":50,"py":55,"scale":112,"blur":4,"bright":48,"sat":120,"gray":0},"tint":{"c":"#0a1024","a":58},"pat":{"id":"grid","c":"#ffffff","a":10,"size":40},"motion":"kenburns","dur":26},"elements":[{"type":"text","x":120,"y":217,"w":1040,"h":183,"text":"Соберите первую лекцию\nза вечер.","fs":74,"fw":800,"color":"#ffffff","align":"center","enter":"scale","enterDur":1100,"id":"0f70c0429a884623afadf3f3f9e1d984","enterDelay":0,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":260,"y":428,"w":760,"h":60,"text":"Откройте редактор, возьмите шаблон «Лекция» и замените текст.","fs":23,"fw":300,"color":"#dbe4fb","align":"center","enter":"fade-up","enterDelay":260,"id":"9741cb5cc79e4c80b2f2ae68de5c64d3","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"rect","x":520,"y":514,"w":240,"h":56,"bg":"#f59e0b","rad":28,"enter":"fade-up","enterDelay":420,"id":"1674da77993b4477a617b00ced891acf","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0},{"type":"text","x":520,"y":530,"w":240,"h":30,"text":"Открыть редактор","fs":17,"fw":700,"color":"#1a1206","align":"center","enter":"fade-up","enterDelay":460,"id":"214337abd50b4666b32fc13f2972bad6","enterDur":750,"exit":"none","exitDur":450,"exitDelay":0}],"id":"8f47db71ff1841a79f6e423b1d1d496f","bg":"radial-gradient(circle at 50% 42%, #1d3a8f 0%, #05091a 84%)","notes":"","transitionDur":900}],"title":"Новая презентация","updated":1794853800555};
 var Player=function WebDeckPlayer(deck, mount, opts){
   opts = opts || {};
   var W=1280, H=720, EASE='cubic-bezier(0.22,1,0.36,1)';
-  var TRANS={morph:900,zoom:800,blur:850,slide:750,fade:650,parallax:900,cut:0};
-
-  /* Настройки панели управления (дефолты + из deck.player) */
+    /* Единая сетка: переход 900 мс (6 тактов по 150 мс), cut — мгновенно. */
+  var TRANS={morph:900,zoom:900,blur:900,slide:900,fade:900,parallax:900,cut:0};
   var DEF={controls:'auto',hideDelay:1600,hotZone:140,pos:'bottom',hint:true,hideCursor:true,progress:true,counter:true,loop:false};
-  var cfg={};
-  for(var dk in DEF) cfg[dk]=(deck.player&&deck.player[dk]!=null)?deck.player[dk]:DEF[dk];
+  var cfg={}; for(var dk in DEF) cfg[dk]=(deck.player&&deck.player[dk]!=null)?deck.player[dk]:DEF[dk];
+  var KIT = (typeof FolioWidget !== 'undefined' && FolioWidget) ? FolioWidget : null;
+  /* PRO-флаг виджетов приезжает из редактора/экспорта (opts.widgets).
+     ВАЖНО: это UI-гейт, а не граница безопасности — в автономном файле он обходится.
+     Серверная проверка прав появится с платным PRO. */
+  var WIDGETS = opts.widgets === true;
+  function reduced(){ return !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches); }
 
-  /* Инъекция стилей плеера (один раз на документ) */
   if(!document.getElementById('wdp-css')){
     var s=document.createElement('style'); s.id='wdp-css';
     s.textContent=''
-    +'.wdp{position:absolute;inset:0;background:#000;display:flex;flex-direction:column;font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#fff;--we:cubic-bezier(.22,1,.36,1)}'
+    +'.wdp{position:absolute;inset:0;background:#000;display:flex;flex-direction:column;font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;color:#fff;--we:cubic-bezier(.22,1,.36,1)}'
     +'.wdp *{box-sizing:border-box}'
     +'.wdp-area{flex:1;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}'
     +'.wdp-area.wdp-nocursor,.wdp-area.wdp-nocursor .wdp-stage{cursor:none}'
@@ -35,10 +37,10 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     +'.wdp-el{position:absolute;overflow:hidden;transform-origin:50% 50%}'
     +'.wdp-txt{width:100%;height:100%;white-space:pre-wrap;word-break:break-word;line-height:1.15;overflow:hidden}'
     +'.wdp-el img{width:100%;height:100%;display:block;pointer-events:none}'
-    +'.wdp-el iframe{width:100%;height:100%;border:0;background:transparent}'
+    +'.wdp-el iframe{width:100%;height:100%;border:0;background:transparent;display:block}'
+    +'.wdp-woff{position:absolute;inset:0;display:grid;place-items:center;background:rgba(127,127,127,.08);border:1px dashed rgba(127,127,127,.4);border-radius:inherit;color:rgba(127,127,127,.95);font:600 14px/1.3 -apple-system,system-ui,sans-serif;text-align:center;padding:8px}'
     +'.wdp-morph{position:absolute;inset:0;pointer-events:none;z-index:900}'
-    +'.wdp-clone{z-index:901}'
-    +'.wdp-prog{position:absolute;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#6366f1,#22d3ee);z-index:950;transition:width .4s var(--we);box-shadow:0 0 14px rgba(99,102,241,.6)}'
+    +'.wdp-prog{position:absolute;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#0071e3,#22d3ee);z-index:950;transition:width .4s var(--we)}'
     +'.wdp-top .wdp-prog{top:auto;bottom:0}'
     +'.wdp-hot{position:absolute;left:0;right:0;bottom:0;height:140px;z-index:940;pointer-events:none}'
     +'.wdp-top .wdp-hot{bottom:auto;top:0}'
@@ -47,17 +49,17 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     +'.wdp-top .wdp-bar{bottom:auto;top:18px;transform:translateX(-50%) translateY(-16px)}'
     +'.wdp-top .wdp-bar.on{transform:translateX(-50%) translateY(0)}'
     +'.wdp-btn{background:rgba(23,29,44,.9);border:1px solid rgba(125,135,170,.26);color:#e8ecf4;border-radius:999px;min-width:36px;height:34px;padding:0 11px;cursor:pointer;font:inherit;font-size:13px;display:inline-flex;align-items:center;justify-content:center;transition:.16s}'
-    +'.wdp-btn:hover{border-color:#6366f1;background:rgba(45,53,84,.95);box-shadow:0 0 16px rgba(99,102,241,.35)}'
+    +'.wdp-btn:hover{border-color:#0071e3;background:rgba(45,53,84,.95)}'
     +'.wdp-btn:active{transform:scale(.94)}'
-    +'.wdp-btn.on{background:linear-gradient(135deg,#6366f1,#8b5cf6);border-color:transparent;color:#fff}'
+    +'.wdp-btn.on{background:#0071e3;border-color:transparent;color:#fff}'
     +'.wdp-btn.wide{font-size:11.5px;letter-spacing:.3px}'
     +'.wdp-sep{width:1px;height:20px;background:rgba(125,135,170,.25);margin:0 2px}'
     +'.wdp-count{min-width:62px;text-align:center;font-size:12.5px;color:#cdd5e4;font-variant-numeric:tabular-nums}'
     +'.wdp-hint{position:absolute;left:50%;bottom:9px;transform:translateX(-50%);width:74px;height:18px;display:flex;align-items:center;justify-content:center;background:none;border:0;padding:0;cursor:pointer;opacity:0;visibility:hidden;z-index:955;transition:opacity .4s var(--we),visibility 0s .4s}'
     +'.wdp-hint.on{opacity:1;visibility:visible;transition:opacity .4s var(--we),visibility 0s}'
     +'.wdp-top .wdp-hint{bottom:auto;top:9px}'
-    +'.wdp-hint i{display:block;width:46px;height:4px;border-radius:4px;background:linear-gradient(90deg,#6366f1,#22d3ee);animation:wdpPulse 2.8s ease-in-out infinite;transition:width .25s,box-shadow .25s}'
-    +'.wdp-hint:hover i{width:64px;box-shadow:0 0 16px rgba(99,102,241,.8);animation:none;opacity:1}'
+    +'.wdp-hint i{display:block;width:46px;height:4px;border-radius:4px;background:linear-gradient(90deg,#0071e3,#22d3ee);animation:wdpPulse 2.8s ease-in-out infinite;transition:width .25s}'
+    +'.wdp-hint:hover i{width:64px;animation:none;opacity:1}'
     +'@keyframes wdpPulse{0%,100%{opacity:.3}50%{opacity:.72}}'
     +'.wdp-notes{position:absolute;right:14px;top:14px;max-width:340px;max-height:60%;overflow:auto;background:rgba(4,7,15,.93);border:1px solid rgba(125,135,170,.3);padding:14px;border-radius:14px;display:none;white-space:pre-wrap;font-size:13px;color:#dbe2f0;z-index:955;backdrop-filter:blur(10px)}'
     +'.wdp-notes.on{display:block}'
@@ -66,11 +68,13 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     +'.wdp-toast.on{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0);transition:opacity .3s var(--we),transform .3s var(--we),visibility 0s}'
     +'.wdp-top .wdp-toast{top:auto;bottom:20px;transform:translateX(-50%) translateY(10px)}'
     +'.wdp-top .wdp-toast.on{transform:translateX(-50%) translateY(0)}'
+    +'@keyframes folioKenBurns{0%{transform:scale(1.04) translate(0,0)}50%{transform:scale(1.14) translate(-2%,-1.6%)}100%{transform:scale(1.04) translate(0,0)}}'
+    +'@keyframes folioDrift{0%{transform:translate(0,0)}33%{transform:translate(-1.6%,1%)}66%{transform:translate(1.4%,-1.2%)}100%{transform:translate(0,0)}}'
+    +'@keyframes folioZoom{0%{transform:scale(1.02)}50%{transform:scale(1.13)}100%{transform:scale(1.02)}}'
     +'@media (max-width:620px){.wdp-btn{min-width:34px;height:32px;padding:0 9px}.wdp-count{min-width:52px;font-size:12px}.wdp-bar{gap:5px;padding:6px 7px}}';
     document.head.appendChild(s);
   }
 
-  /* Разметка плеера */
   mount.classList.add('wdp');
   mount.innerHTML='<div class="wdp-area"><div class="wdp-prog"></div><div class="wdp-wrap"><div class="wdp-stage"></div></div>'
     +'<div class="wdp-notes"></div><div class="wdp-hot"></div>'
@@ -81,8 +85,8 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     +'<button class="wdp-btn" data-a="next" title="Вперёд (→)">→</button>'
     +'<span class="wdp-sep"></span>'
     +'<button class="wdp-btn" data-a="auto" title="Автопоказ (A)">▶▶</button>'
-    +'<button class="wdp-btn" data-a="loop" title="По кругу (L)">🔁</button>'
-    +'<button class="wdp-btn" data-a="notes" title="Заметки (N)">🗒</button>'
+    +'<button class="wdp-btn" data-a="loop" title="По кругу (L)">↻</button>'
+    +'<button class="wdp-btn" data-a="notes" title="Заметки (N)">≡</button>'
     +'<button class="wdp-btn" data-a="full" title="Во весь экран (F)">⛶</button>'
     +'<button class="wdp-btn wide" data-a="mode" title="Режим панели (H)">Авто</button>'
     +(opts.standalone?'':'<button class="wdp-btn" data-a="exit" title="Выйти (Esc)">✕</button>')
@@ -93,14 +97,16 @@ var Player=function WebDeckPlayer(deck, mount, opts){
       notesEl=mount.querySelector('.wdp-notes'), count=mount.querySelector('.wdp-count'),
       bar=mount.querySelector('.wdp-bar'), hot=mount.querySelector('.wdp-hot'),
       hint=mount.querySelector('.wdp-hint'), toastEl=mount.querySelector('.wdp-toast'),
-      autoBtn=mount.querySelector('[data-a="auto"]'), loopBtn=mount.querySelector('[data-a="loop"]'), modeBtn=mount.querySelector('[data-a="mode"]');
+      autoBtn=mount.querySelector('[data-a="auto"]'), loopBtn=mount.querySelector('[data-a="loop"]'),
+      modeBtn=mount.querySelector('[data-a="mode"]');
   var morph=document.createElement('div'); morph.className='wdp-morph'; stage.appendChild(morph);
 
- var idx=0,scale=1,busy=false,cur=null,dead=false,auto=null,gen=0;
-  var anims=[],transAnims=[];
+  var idx=0,scale=1,busy=false,cur=null,dead=false,auto=null,gen=0;
+  var anims=[],transAnims=[],activeFinish=null;
   var barVisible=false,inHot=false,overBar=false,focusBar=false,hideT=null,cursorT=null,toastT=null;
 
   function clamp(v,a,b){return Math.max(a,Math.min(b,v));}
+  function isModalOpen(){return !!document.querySelector('.modal.on');}
   function op(e){return e.op==null?1:e.op;}
   function rot(e){return 'rotate('+(e.rot||0)+'deg)';}
   function fin(e){return {opacity:op(e),transform:rot(e),filter:'none'};}
@@ -119,70 +125,270 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     }
     return {opacity:0,transform:t,filter:f};
   }
-  function srcdoc(e){
-    return '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-      +'<style>html,body{margin:0;height:100%;overflow:hidden;font-family:system-ui,sans-serif;background:transparent}'+(e.css||'')+'</style></head><body>'+(e.html||'')
-      +'<script>try{'+(e.js||'')+'}catch(err){var p=document.createElement("pre");p.style.cssText="color:#b91c1c;font:12px monospace;padding:8px";p.textContent=String(err);document.body.appendChild(p)}<\/script></body></html>';
+  /* Исчезание: те же эффекты, что у появления, но уход от финального состояния. */
+  function exitTo(e){
+    var t=rot(e),f='none';
+    switch(e.exit){
+      case 'fade':break;
+      case 'fade-up':t+=' translateY(-48px)';break;
+      case 'fade-down':t+=' translateY(48px)';break;
+      case 'fade-left':t+=' translateX(-56px)';break;
+      case 'fade-right':t+=' translateX(56px)';break;
+      case 'scale':t+=' scale(0.9)';break;
+      case 'blur':f='blur(22px)';t+=' scale(1.04)';break;
+      case 'flip':t+=' perspective(900px) rotateY(-75deg)';break;
+      default:return null;
+    }
+    return {opacity:0,transform:t,filter:f};
   }
-  function textStyle(e){return 'font-size:'+(e.fs||32)+'px;font-weight:'+(e.fw||400)+';color:'+(e.color||'#111')+';text-align:'+(e.align||'left')+';padding:'+(e.pad||0)+'px';}
-  function content(n,e){
-    if(e.type==='text'){var t=document.createElement('div');t.className='wdp-txt';t.textContent=e.text||'';t.style.cssText=textStyle(e);n.appendChild(t);}
-    else if(e.type==='img'){var im=document.createElement('img');im.src=e.src||'';im.style.objectFit=e.fit||'cover';im.draggable=false;n.appendChild(im);}
-    else if(e.type==='code'){var f=document.createElement('iframe');f.setAttribute('sandbox','allow-scripts allow-popups allow-forms');f.srcdoc=srcdoc(e);n.appendChild(f);}
+  /* Plain-цвет интерполируется; градиент — нет (для него честный дизолв). */
+  function plainColor(c){
+    var s=String(c==null?'':c).trim().toLowerCase();
+    if(/^#([0-9a-f]{3}|[0-9a-f]{4}|[0-9a-f]{6}|[0-9a-f]{8})$/.test(s)) return s;
+    if(/^(rgb|rgba|hsl|hsla)\(/.test(s)) return s;
+    if(/^[a-z]+$/.test(s)) return s;
+    return null;
+  }
+  function sameContent(a,b){
+    if(a.type!==b.type) return false;
+    if(a.type==='text') return (a.text||'')===(b.text||'');
+    if(a.type==='img')  return (a.src||'')===(b.src||'')&&(a.fit||'cover')===(b.fit||'cover');
+    if(a.type==='code'){
+      if(!WIDGETS) return true;   /* с обеих сторон одинаковая заглушка */
+      return (a.html||'')===(b.html||'')&&(a.css||'')===(b.css||'')&&(a.js||'')===(b.js||'');
+    }
+    if(a.type==='rect'){
+      if(plainColor(a.bg)!==null&&plainColor(b.bg)!==null) return true;  /* цвет анимируется отдельно */
+      return (a.bg||'')===(b.bg||'');
+    }
+    return false;
+  }
+  /* Стартовый кадр — из текущего вычисленного состояния узла, не из финальных
+     данных: при прерывании анимаций элемент не мигает в полную видимость. */
+  function startKF(n){
+    var cs=getComputedStyle(n);
+    return {left:cs.left,top:cs.top,width:cs.width,height:cs.height,
+            borderRadius:cs.borderRadius,transform:cs.transform,opacity:cs.opacity};
+  }
+  function textStartKF(t){
+    var cs=getComputedStyle(t);
+    return {fontSize:cs.fontSize,color:cs.color};
   }
 
-  /* Слайд создаётся сразу в стартовых состояниях анимаций — финал не «моргает» */
-  function build(sl,initial){
-    var L=document.createElement('div'); L.className='wdp-layer'; L.style.background=sl.bg||'#fff';
+  /* ---------- виджеты ---------- */
+  function widgetDoc(e,sl,i){
+    if(KIT) return KIT.doc(e,{mode:'view',title:deck.title||'',slide:(sl&&sl.id)||'',index:i|0});
+    return '<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;height:100%;overflow:hidden;'
+      +'font-family:system-ui,sans-serif;background:transparent}'+(e.css||'')+'</style></head><body>'+(e.html||'')
+      +'<script>try{'+(e.js||'')+'}catch(err){var p=document.createElement("pre");p.style.cssText="color:#b91c1c;font:12px monospace;padding:8px";'
+      +'p.textContent=String(err);document.body.appendChild(p)}<\/script></body></html>';
+  }
+  function post(f,type){
+    try{ f.contentWindow && f.contentWindow.postMessage({__folio:1,type:type},'*'); }catch(err){}
+  }
+  function wake(L){ if(L&&L.__frames) L.__frames.forEach(function(f){ post(f,'resume'); }); }
+  function sleep(L){ if(L&&L.__frames) L.__frames.forEach(function(f){ post(f,'pause'); }); }
+  function wakeSoon(L){
+    [0,360,1300].forEach(function(d){
+      setTimeout(function(){ if(!dead && L && L.isConnected) wake(L); }, d);
+    });
+  }
+
+  function textStyle(e){return 'font-size:'+(e.fs||32)+'px;font-weight:'+(e.fw||400)+';color:'+(e.color||'#111')+';text-align:'+(e.align||'left')+';padding:'+(e.pad||0)+'px';}
+  function content(n,e,sl,i){
+    if(e.type==='text'){var t=document.createElement('div');t.className='wdp-txt';t.textContent=e.text||'';t.style.cssText=textStyle(e);n.appendChild(t);}
+    else if(e.type==='img'){var im=document.createElement('img');im.src=e.src||'';im.style.objectFit=e.fit||'cover';im.draggable=false;n.appendChild(im);}
+    else if(e.type==='code'){
+      if(!WIDGETS){
+        /* Публичный режим: заглушка вместо iframe, код не исполняется. */
+        var ph=document.createElement('div'); ph.className='wdp-woff';
+        ph.textContent='Виджет доступен в PRO-режиме';
+        n.appendChild(ph);
+      }else{
+        var f=document.createElement('iframe');
+        f.setAttribute('sandbox','allow-scripts allow-popups allow-forms allow-modals');
+        f.setAttribute('title','Виджет');
+        f.srcdoc=widgetDoc(e,sl,i);
+        f.addEventListener('load',function(){ post(f,'resume'); });
+        n.appendChild(f);
+      }
+    }
+  }
+
+  /* ---------- фон ---------- */
+  function bgRgba(hex,a){var h=String(hex||'#000').replace('#','');if(h.length===3)h=h.split('').map(function(x){return x+x}).join('');
+    var n=parseInt(h.slice(0,6)||'000000',16);return 'rgba('+((n>>16)&255)+','+((n>>8)&255)+','+(n&255)+','+(Math.max(0,Math.min(100,a))/100).toFixed(3)+')';}
+  function bgGrad(g){var st=(g.stops||[]).slice().sort(function(a,b){return a.p-b.p}).map(function(s){return s.c+' '+s.p+'%'}).join(', ');
+    if(!st)return 'transparent';
+    if(g.kind==='radial')return 'radial-gradient(circle at '+(g.px==null?50:g.px)+'% '+(g.py==null?50:g.py)+'%, '+st+')';
+    if(g.kind==='conic')return 'conic-gradient(from '+(g.angle||0)+'deg at '+(g.px==null?50:g.px)+'% '+(g.py==null?50:g.py)+'%, '+st+')';
+    return 'linear-gradient('+(g.angle||0)+'deg, '+st+')';}
+  function bgPat(p){var c=bgRgba(p.c,p.a),s=Math.max(6,p.size||40);
+    if(p.id==='dots')return 'radial-gradient(circle, '+c+' 1.6px, transparent 1.7px) 0 0/'+s+'px '+s+'px';
+    if(p.id==='lines')return 'repeating-linear-gradient(45deg, '+c+' 0 1px, transparent 1px '+s+'px)';
+    return 'repeating-linear-gradient(0deg, '+c+' 0 1px, transparent 1px '+s+'px), repeating-linear-gradient(90deg, '+c+' 0 1px, transparent 1px '+s+'px)';}
+  function bgMount(root,sl,anim){
+    var b=sl.background;
+    var host=document.createElement('div');
+    host.setAttribute('data-bg','1');
+    host.style.cssText='position:absolute;inset:0;z-index:0;pointer-events:none';
+    function flat(css){var d=document.createElement('div');d.style.cssText=css;host.appendChild(d);}
+    if(!b){ flat('position:absolute;inset:0;background:'+(sl.bg||'#fff')); root.appendChild(host); return; }
+    flat('position:absolute;inset:0;background:'+(b.type==='legacy'?(b.legacy||b.color):b.type==='gradient'?bgGrad(b.grad):b.color));
+    if(b.type==='pattern') flat('position:absolute;inset:0;background:'+bgPat(b.pat));
+    if(b.img&&b.img.src){
+      var i=b.img, fit=i.fit==='contain'?'contain':i.fit==='fill'?'100% 100%':'cover', f=[];
+      if(i.blur>0)f.push('blur('+i.blur+'px)');
+      if(i.bright!==100)f.push('brightness('+i.bright+'%)');
+      if(i.sat!==100)f.push('saturate('+i.sat+'%)');
+      if(i.gray>0)f.push('grayscale('+i.gray+'%)');
+      var w=document.createElement('div'); w.style.cssText='position:absolute;inset:0;overflow:hidden';
+      var inner=document.createElement('div');
+      inner.style.cssText='position:absolute;inset:-2%;background-image:url("'+i.src+'");background-size:'+fit
+        +';background-position:'+i.px+'% '+i.py+'%;background-repeat:no-repeat;transform:scale('+((i.scale||100)/100)+');filter:'+(f.join(' ')||'none');
+      if(anim&&b.motion&&b.motion!=='none'&&!reduced()){
+        var nm={kenburns:'folioKenBurns',drift:'folioDrift',zoom:'folioZoom'}[b.motion];
+        if(nm)w.style.animation=nm+' '+(b.dur||24)+'s ease-in-out infinite';
+      }
+      w.appendChild(inner); host.appendChild(w);
+    }
+    if(b.tint&&b.tint.a>0) flat('position:absolute;inset:0;background:'+bgRgba(b.tint.c,b.tint.a));
+    root.appendChild(host);
+  }
+
+  function build(sl,initial,index){
+    var L=document.createElement('div'); L.className='wdp-layer';
+    L.style.background='transparent';
+    L.__frames=[];
+    bgMount(L,sl,true);
     (sl.elements||[]).forEach(function(e,i){
       var n=document.createElement('div'); n.className='wdp-el'; n.dataset.id=e.id;
       n.style.left=e.x+'px'; n.style.top=e.y+'px'; n.style.width=e.w+'px'; n.style.height=e.h+'px'; n.style.zIndex=i+1;
       n.style.borderRadius=(e.rad||0)+'px';
       n.style.background=e.type==='rect'?(e.bg||'#ccc'):(e.type==='text'?(e.bg||'transparent'):'transparent');
       var F=fin(e); n.style.opacity=F.opacity; n.style.transform=F.transform;
-      content(n,e);
+      content(n,e,sl,index);
+      if(e.type==='code'){ var fr=n.querySelector('iframe'); if(fr) L.__frames.push(fr); }
       if(e.morphId)n.dataset.morph=e.morphId;
       if(initial&&e.enter&&e.enter!=='none'){var S=from(e);if(S){n.style.opacity=S.opacity;n.style.transform=S.transform;n.style.filter=S.filter;n.dataset.pending='1';}}
       L.appendChild(n);
     });
     return L;
   }
-  function node(L,id){return L.querySelector('[data-id="'+id+'"]');}
+  function node(L,id){return L?L.querySelector('[data-id="'+id+'"]'):null;}
   function enter(L,sl,base){
     var k=0;
     (sl.elements||[]).forEach(function(e){
       var n=node(L,e.id); if(!n||n.dataset.pending!=='1')return;
       delete n.dataset.pending;
-      var a=n.animate([from(e),fin(e)],{duration:e.enterDur||750,delay:(base||0)+(e.enterDelay||0)+k*90,easing:EASE,fill:'both'});
-      k++; anims.push(a);
-      a.onfinish=function(){var F=fin(e);n.style.opacity=F.opacity;n.style.transform=F.transform;n.style.filter='none';a.cancel();};
+      /* Каскад 75 мс — половина такта единой сетки 150 мс. */
+      var a=n.animate([from(e),fin(e)],{duration:e.enterDur||600,delay:(base||0)+(e.enterDelay||0)+k*75,easing:EASE,fill:'both'});
+      k++; a.__layer=L; anims.push(a);
+      a.onfinish=function(){var F=fin(e);n.style.opacity=F.opacity;n.style.transform=F.transform;n.style.filter='none';a.cancel();wake(L);};
+    });
+  }
+  function cancelLayerAnims(L){
+    anims=anims.filter(function(a){
+      if(a.__layer===L){ try{a.cancel();}catch(e){} return false; }
+      return true;
     });
   }
 
-  /* Morph в координатах слайда — фон не «вырастает из угла» */
-  function clone(oldE,newE,dur){
-    var c=document.createElement('div'); c.className='wdp-el wdp-clone';
-    c.style.left=oldE.x+'px'; c.style.top=oldE.y+'px'; c.style.width=oldE.w+'px'; c.style.height=oldE.h+'px';
-    c.style.borderRadius=(oldE.rad||0)+'px'; c.style.transformOrigin='top left'; c.style.opacity=op(oldE);
-    c.style.background=oldE.type==='rect'?(oldE.bg||'#ccc'):(oldE.type==='text'?(oldE.bg||'transparent'):'transparent');
-    if(oldE.type==='text'){
-      var a=document.createElement('div'); a.className='wdp-txt'; a.textContent=oldE.text||'';
-      a.style.cssText='position:absolute;inset:0;'+textStyle(oldE); c.appendChild(a);
-      transAnims.push(a.animate([{fontSize:(oldE.fs||32)+'px'},{fontSize:(newE.fs||32)+'px'}],{duration:dur,easing:EASE,fill:'forwards'}));
-      if((oldE.text||'')!==(newE.text||'')){
-        transAnims.push(a.animate([{opacity:1},{opacity:0}],{duration:dur*.55,delay:dur*.3,easing:'ease',fill:'forwards'}));
-        var b=document.createElement('div'); b.className='wdp-txt'; b.textContent=newE.text||'';
-        b.style.cssText='position:absolute;inset:0;opacity:0;'+textStyle(newE); c.appendChild(b);
-        transAnims.push(b.animate([{opacity:0},{opacity:1}],{duration:dur*.55,delay:dur*.4,easing:'ease',fill:'forwards'}));
-      }
-    } else if(oldE.type==='img'){
-      var im=document.createElement('img'); im.src=oldE.src||''; im.style.objectFit=oldE.fit||'cover'; c.appendChild(im);
+  /* ============================================================
+     МОРФИНГ
+     ============================================================ */
+  function geomKF(e){
+    return {
+      left:e.x+'px', top:e.y+'px', width:e.w+'px', height:e.h+'px',
+      borderRadius:(e.rad||0)+'px',
+      transform:'rotate('+(e.rot||0)+'deg)',
+      opacity:op(e)
+    };
+  }
+  function morphPairs(oldSl,newSl,oldLayer,newLayer){
+    var map={}, out=[];
+    (oldSl.elements||[]).forEach(function(e){ if(e.morphId && !map[e.morphId]) map[e.morphId]=e; });
+    (newSl.elements||[]).forEach(function(e){
+      if(!e.morphId) return;
+      var oe=map[e.morphId]; if(!oe) return;
+      var on=node(oldLayer,oe.id), nn=node(newLayer,e.id);
+      if(!on||!nn) return;
+      out.push({oldE:oe,newE:e,oldNode:on,newNode:nn});
+    });
+    return out;
+  }
+    function runMorph(pairs,old,L,oldSl,toSl,dur,anim,exiting){
+    /* старый слой поднимаем наверх: живой объект должен быть виден */
+    old.style.zIndex='3'; L.style.zIndex='2'; L.style.opacity='1';
+
+    /* фон старого слайда растворяется, обнажая новый слой */
+    var bgHost=old.querySelector('[data-bg]');
+    if(!bgHost){
+      bgHost=document.createElement('div');
+      bgHost.setAttribute('data-bg','1');
+      bgHost.style.cssText='position:absolute;inset:0;z-index:0;background:'+(oldSl.bg||'#fff');
+      old.insertBefore(bgHost,old.firstChild);
     }
-    morph.appendChild(c);
-    transAnims.push(c.animate([
-      {left:oldE.x+'px',top:oldE.y+'px',width:oldE.w+'px',height:oldE.h+'px',borderRadius:(oldE.rad||0)+'px',opacity:op(oldE)},
-      {left:newE.x+'px',top:newE.y+'px',width:newE.w+'px',height:newE.h+'px',borderRadius:(newE.rad||0)+'px',opacity:op(newE)}
-    ],{duration:dur,easing:EASE,fill:'forwards'}));
+    old.style.background='transparent';
+    anim(bgHost,[{opacity:1},{opacity:0}],{duration:dur*.85,easing:EASE,fill:'forwards'});
+
+    var matched={};
+    pairs.forEach(function(p){ matched[p.oldE.id]=1; });
+
+    /* всё, что не морфится и не исчезает своей анимацией, уходит растворением */
+    (oldSl.elements||[]).forEach(function(e){
+      if(matched[e.id]||(exiting&&exiting[e.id])) return;
+      var n=node(old,e.id); if(!n) return;
+      anim(n,[{opacity:getComputedStyle(n).opacity},{opacity:0}],{duration:dur*.5,easing:EASE,fill:'forwards'});
+    });
+
+    pairs.forEach(function(p){
+      var same=sameContent(p.oldE,p.newE);
+      var start=startKF(p.oldNode);
+      var end=geomKF(p.newE);
+      delete p.newNode.dataset.pending;
+      p.newNode.dataset.hold='1';
+      p.newNode.style.filter='none';
+
+      if(same){
+        /* Одинаковое содержимое: едет один живой узел, передача в один кадр,
+           без призрака и без паузы в конце. */
+        p.newNode.style.opacity='0';
+        p.newNode.style.transform=rot(p.newE);
+        anim(p.oldNode,[start,end],{duration:dur,easing:EASE,fill:'forwards'});
+        if(p.oldE.type==='text'){
+          var t=p.oldNode.querySelector('.wdp-txt');
+          if(t) anim(t,[textStartKF(t),{fontSize:(p.newE.fs||32)+'px',color:p.newE.color||'#111'}],
+            {duration:dur,easing:EASE,fill:'forwards'});
+        }
+        if(p.oldE.type==='rect'){
+          var ca=plainColor(p.oldE.bg), cb=plainColor(p.newE.bg);
+          if(ca!==null&&cb!==null&&ca!==cb)
+            anim(p.oldNode,[{backgroundColor:ca},{backgroundColor:cb}],{duration:dur,easing:EASE,fill:'forwards'});
+        }
+        /* у виджета меняется размер контейнера — ResizeObserver внутри
+           перерисует содержимое, сам документ не пересоздаётся */
+      }else{
+        /* Разное содержимое: оба узла едут по одной траектории, содержимое
+           мягко перетекает прямо в движении — без «старый доехал → щёлк». */
+        p.newNode.style.opacity='0';
+        p.newNode.style.left=start.left; p.newNode.style.top=start.top;
+        p.newNode.style.width=start.width; p.newNode.style.height=start.height;
+        p.newNode.style.borderRadius=start.borderRadius;
+        p.newNode.style.transform=start.transform;
+        var oldEnd={}; for(var k in end) oldEnd[k]=end[k]; oldEnd.opacity=0;
+        var newStart={}; for(var k2 in start) newStart[k2]=start[k2]; newStart.opacity=0;
+        anim(p.oldNode,[start,oldEnd],{duration:dur,easing:EASE,fill:'forwards'});
+        anim(p.newNode,[newStart,end],{duration:dur,easing:EASE,fill:'forwards'});
+        if(p.oldE.type==='text'&&p.newE.type==='text'){
+          var ot=p.oldNode.querySelector('.wdp-txt'), nt=p.newNode.querySelector('.wdp-txt');
+          var ts=ot?textStartKF(ot):{fontSize:(p.oldE.fs||32)+'px',color:p.oldE.color||'#111'};
+          var te={fontSize:(p.newE.fs||32)+'px',color:p.newE.color||'#111'};
+          if(ot) anim(ot,[ts,te],{duration:dur,easing:EASE,fill:'forwards'});
+          if(nt) anim(nt,[ts,te],{duration:dur,easing:EASE,fill:'forwards'});
+        }
+      }
+    });
   }
 
   function ui(){
@@ -191,77 +397,126 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     notesEl.textContent=deck.slides[idx].notes||'Заметок нет';
   }
   function show(i,withEnter){
-    gen++;                                                    // прерываем любой активный переход
-    busy=false;
-    transAnims.forEach(function(a){try{a.cancel();}catch(e){}});
-    transAnims=[];
-    stage.querySelectorAll('.wdp-layer').forEach(function(l){l.remove();});  // убираем ВСЕ слои
+    gen++;
+    busy=false; activeFinish=null;
+    transAnims.forEach(function(a){try{a.cancel();}catch(e){}}); transAnims=[];
+    stage.querySelectorAll('.wdp-layer').forEach(function(l){ sleep(l); cancelLayerAnims(l); l.remove(); });
     morph.innerHTML='';
     idx=clamp(i,0,deck.slides.length-1);
-    cur=build(deck.slides[idx],withEnter);
-    stage.insertBefore(cur,morph);
-    ui();
-    if(withEnter)enter(cur,deck.slides[idx],140);
+    var instant=reduced();
+    cur=build(deck.slides[idx],withEnter&&!instant,idx);
+    stage.insertBefore(cur,morph); ui();
+    if(withEnter&&!instant)enter(cur,deck.slides[idx],150);
+    wakeSoon(cur);
   }
-  function go(i){
+    function go(i){
+    if(isModalOpen())return;
     var n=deck.slides.length;
     if(cfg.loop){ if(i>=n)i=0; else if(i<0)i=n-1; }
     i=clamp(i,0,n-1);
-    if(busy||dead||i===idx)return;
-    var myGen=++gen;                                        // поколение этого перехода
+    if(dead||i===idx)return;
+    /* Быстрое листание: прерываем текущую фазу чистым снапом в целевой слайд
+       и сразу стартуем следующую — без наложений слоёв и залипания навигации. */
+    if(busy){ if(activeFinish) activeFinish(); else return; }
+    var myGen=++gen;
     var fromI=idx, oldSl=deck.slides[fromI], toSl=deck.slides[i];
     var tr=toSl.transition||'morph';
-    var dur=toSl.transitionDur!=null?toSl.transitionDur:(TRANS[tr]||800);
-    var old=cur, L=build(toSl,true);
+    var dur=toSl.transitionDur!=null?toSl.transitionDur:(TRANS[tr]||900);
+    var old=cur;
+    var instant=(tr==='cut'||dur<=0||reduced());
+    var L=build(toSl,!instant,i);
+    L.style.opacity='0';
     stage.insertBefore(L,morph); idx=i; ui();
-    if(tr==='cut'||dur<=0){old.remove();cur=L;enter(L,toSl,0);return;}
-    busy=true; L.style.opacity='0';
+    wakeSoon(L);
+
+    var pairs=(tr==='morph'&&!instant)?morphPairs(oldSl,toSl,old,L):[];
+    if(tr==='morph'&&!pairs.length&&!instant) tr='fade';   /* нечего морфить — честный кроссфейд */
+
+    if(instant){
+      /* Cut и prefers-reduced-motion: мгновенная смена, без фаз исчезания/появления. */
+      sleep(old); cancelLayerAnims(old); old.remove(); cur=L;
+      L.style.opacity='1'; wakeSoon(L); return;
+    }
+
+    busy=true;
     var jobs=[];
     function anim(el,kf,o){var a=el.animate(kf,o);transAnims.push(a);jobs.push(a.finished.catch(function(){}));return a;}
-    if(tr==='morph'){
-      var oldMap={};
-      oldSl.elements.forEach(function(e){if(e.morphId&&e.type!=='code')oldMap[e.morphId]=e;});
-      toSl.elements.forEach(function(e){
-        if(e.morphId&&oldMap[e.morphId]&&e.type!=='code'){
-          var n=node(L,e.id);
-          if(n){delete n.dataset.pending;n.dataset.hold='1';var F=fin(e);n.style.opacity='0';n.style.transform=F.transform;n.style.filter='none';}
-          clone(oldMap[e.morphId],e,dur);
-        }
+
+    var finished=false;
+    function finalize(){
+      if(finished||dead||myGen!==gen)return;
+      finished=true; activeFinish=null;
+      /* Один кадр: новые узлы в финальном состоянии, старый слой исчезает.
+         Никакого дополнительного кроссфейда — призрак не появляется. */
+      (toSl.elements||[]).forEach(function(e){
+        var nn=node(L,e.id); if(!nn)return;
+        var F=fin(e);
+        nn.style.left=e.x+'px'; nn.style.top=e.y+'px'; nn.style.width=e.w+'px'; nn.style.height=e.h+'px';
+        nn.style.borderRadius=(e.rad||0)+'px';
+        nn.style.opacity=F.opacity; nn.style.transform=F.transform; nn.style.filter='none';
+        if(e.type==='rect') nn.style.background=e.bg||'#ccc';
+        if(e.type==='text'){var t=nn.querySelector('.wdp-txt'); if(t){t.style.fontSize=(e.fs||32)+'px'; t.style.color=e.color||'#111';}}
+        delete nn.dataset.hold; delete nn.dataset.pending;
       });
-      anim(old,[{opacity:1},{opacity:0}],{duration:dur*.8,easing:EASE,fill:'forwards'});
-      anim(L,[{opacity:0},{opacity:1}],{duration:dur*.85,easing:EASE,fill:'forwards'});
-      enter(L,toSl,dur*.55);
-    } else {
-      var dir=i>fromI?1:-1, ok, nk;
-      if(tr==='zoom'){ok=[{opacity:1,transform:'scale(1)'},{opacity:0,transform:'scale(1.12)'}];nk=[{opacity:0,transform:'scale(.88)'},{opacity:1,transform:'scale(1)'}];}
-      else if(tr==='blur'){ok=[{opacity:1,filter:'blur(0px)'},{opacity:0,filter:'blur(26px)'}];nk=[{opacity:0,filter:'blur(26px)'},{opacity:1,filter:'blur(0px)'}];}
-      else if(tr==='slide'){ok=[{transform:'translateX(0)'},{transform:'translateX('+(-dir*100)+'%)'}];nk=[{transform:'translateX('+(dir*100)+'%)'},{transform:'translateX(0)'}];L.style.opacity='1';}
-      else if(tr==='parallax'){ok=[{opacity:1,transform:'translateX(0) scale(1)'},{opacity:0,transform:'translateX('+(-dir*28)+'%) scale(.94)'}];nk=[{opacity:0,transform:'translateX('+(dir*36)+'%) scale(1.04)'},{opacity:1,transform:'translateX(0) scale(1)'}];}
-      else{ok=[{opacity:1},{opacity:0}];nk=[{opacity:0},{opacity:1}];}
-      anim(old,ok,{duration:dur,easing:EASE,fill:'forwards'});
-      anim(L,nk,{duration:dur,easing:EASE,fill:'forwards'});
-      enter(L,toSl,dur*.5);
-    }
-    var done=false;
-    function finish(){
-      if(done||dead)return;
-      if(myGen!==gen)return;                                  // переход прерван новым show()/go()
-      done=true;
       transAnims.forEach(function(a){try{a.cancel();}catch(e){}}); transAnims=[];
-      old.remove(); morph.innerHTML='';
-      L.querySelectorAll('[data-hold]').forEach(function(n){
-        var e=toSl.elements.find(function(x){return x.id===n.dataset.id;});
-        if(e){var F=fin(e);n.style.opacity=F.opacity;n.style.transform=F.transform;n.style.filter='none';}
-        delete n.dataset.hold;
-      });
-      L.style.opacity='1'; L.style.transform='none'; L.style.filter='none';
+      sleep(old); cancelLayerAnims(old); old.remove(); morph.innerHTML='';
+      L.style.opacity='1'; L.style.transform='none'; L.style.filter='none'; L.style.zIndex='';
       cur=L; busy=false;
+      wakeSoon(L);
     }
-    Promise.all(jobs).then(finish);
-    setTimeout(finish,dur+140);
+    activeFinish=finalize;
+
+    /* Фаза 1 — исчезания (дефолт none). Пары Morph ID не исчезают — они перетекают.
+       Стартовый кадр берётся из текущего вычисленного состояния узла, чтобы при
+       быстром листании не было вспышки полной видимости перед гашением. */
+    var pairedOld={}, exiting={};
+    pairs.forEach(function(p){ pairedOld[p.oldE.id]=1; });
+    var exitTotal=0;
+    (oldSl.elements||[]).forEach(function(e){
+      if(pairedOld[e.id])return;
+      var kf=exitTo(e); if(!kf)return;
+      var nd=node(old,e.id); if(!nd)return;
+      var cs=getComputedStyle(nd);
+      var a=nd.animate([{opacity:cs.opacity,transform:cs.transform,filter:cs.filter},kf],
+        {duration:e.exitDur||450,delay:e.exitDelay||0,easing:EASE,fill:'forwards'});
+      transAnims.push(a);
+      exiting[e.id]=1;
+      exitTotal=Math.max(exitTotal,(e.exitDelay||0)+(e.exitDur||450));
+    });
+    /* Переход стартует на ~60% исчезаний, а не после их полного завершения:
+       фазы перекрываются, пустых моментов и ощущения зависания нет. */
+    var exitWait=exitTotal>0?Math.round(exitTotal*0.6):0;
+
+    function startTransition(){
+      if(dead||myGen!==gen||finished)return;
+      if(tr==='morph'){
+        L.style.opacity='1';
+        runMorph(pairs,old,L,oldSl,toSl,dur,anim,exiting);
+        enter(L,toSl,Math.round(dur*0.5));
+      }else{
+        var dir=i>fromI?1:-1, ok, nk;
+        if(tr==='zoom'){ok=[{opacity:1,transform:'scale(1)'},{opacity:0,transform:'scale(1.12)'}];nk=[{opacity:0,transform:'scale(.88)'},{opacity:1,transform:'scale(1)'}];}
+        else if(tr==='blur'){ok=[{opacity:1,filter:'blur(0px)'},{opacity:0,filter:'blur(26px)'}];nk=[{opacity:0,filter:'blur(26px)'},{opacity:1,filter:'blur(0px)'}];}
+        else if(tr==='slide'){ok=[{transform:'translateX(0)'},{transform:'translateX('+(-dir*100)+'%)'}];nk=[{transform:'translateX('+(dir*100)+'%)'},{transform:'translateX(0)'}];L.style.opacity='1';}
+        else if(tr==='parallax'){ok=[{opacity:1,transform:'translateX(0) scale(1)'},{opacity:0,transform:'translateX('+(-dir*28)+'%) scale(.94)'}];nk=[{opacity:0,transform:'translateX('+(dir*36)+'%) scale(1.04)'},{opacity:1,transform:'translateX(0) scale(1)'}];}
+        else{ok=[{opacity:1},{opacity:0}];nk=[{opacity:0},{opacity:1}];}
+        anim(old,ok,{duration:dur,easing:EASE,fill:'forwards'});
+        anim(L,nk,{duration:dur,easing:EASE,fill:'forwards'});
+        enter(L,toSl,Math.round(dur*0.5));
+      }
+      var settled=false;
+      function settle(){
+        if(settled||dead||myGen!==gen)return;
+        settled=true; finalize();
+      }
+      Promise.all(jobs).then(settle);
+      setTimeout(settle,dur+140);
+    }
+    if(exitWait>0) setTimeout(startTransition,exitWait); else startTransition();
   }
 
-  /* ---------- Панель управления: показ по зоне, скрытие по таймеру ---------- */
+
+  /* ---------- панель управления ---------- */
   function toast(msg,ms){
     toastEl.textContent=msg; toastEl.classList.add('on');
     clearTimeout(toastT); toastT=setTimeout(function(){toastEl.classList.remove('on');},ms||2200);
@@ -291,8 +546,7 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     if(!quiet)toast('Панель: '+(m==='auto'?'автоскрытие':m==='always'?'всегда видна':'скрыта · H — вернуть'));
   }
   function setLoop(on,quiet){
-    cfg.loop=!!on;
-    if(opts.onCfg)opts.onCfg('loop',cfg.loop);
+    cfg.loop=!!on; if(opts.onCfg)opts.onCfg('loop',cfg.loop);
     loopBtn.classList.toggle('on',cfg.loop);
     if(!quiet)toast('По кругу: '+(cfg.loop?'включён':'выключен'));
   }
@@ -303,7 +557,6 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     count.style.display=cfg.counter?'inline-block':'none';
     modeBtn.textContent=modeLabel();
     modeBtn.classList.toggle('on',cfg.controls!=='auto');
-    modeBtn.title='Режим панели (H): '+modeLabel();
     loopBtn.classList.toggle('on',!!cfg.loop);
     clearTimeout(hideT); clearTimeout(cursorT);
     area.classList.remove('wdp-nocursor');
@@ -326,11 +579,12 @@ var Player=function WebDeckPlayer(deck, mount, opts){
   function leaveArea(){inHot=false;overBar=false;schedule();}
   var sx=null,sy=null,st=0,stype='';
   function pd(ev){
+    if(isModalOpen())return;
     if(ev.target.closest('.wdp-bar')||ev.target.closest('.wdp-hint')||ev.target.closest('iframe'))return;
     sx=ev.clientX;sy=ev.clientY;st=Date.now();stype=ev.pointerType;
   }
   function pu(ev){
-    if(sx==null)return;
+    if(isModalOpen()||sx==null)return;
     var dx=ev.clientX-sx,dy=ev.clientY-sy,dt=Date.now()-st; sx=null;
     if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)){go(idx+(dx<0?1:-1));return;}
     if(stype==='touch'&&Math.abs(dx)<12&&Math.abs(dy)<12&&dt<450){
@@ -347,19 +601,22 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     stage.style.transform='scale('+scale+')';
   }
   function full(){
+    if(isModalOpen())return;
     if(document.fullscreenElement)document.exitFullscreen();
     else if(mount.requestFullscreen)mount.requestFullscreen();
   }
   function setAuto(on){
     if(auto){clearInterval(auto);auto=null;}
     if(on)auto=setInterval(function(){
-      if(busy)return;
+      if(busy||isModalOpen())return;
       if(idx<deck.slides.length-1||cfg.loop)go(idx+1); else setAuto(false);
     },4200);
     autoBtn.classList.toggle('on',!!auto);
   }
   function key(ev){
-    if(dead)return;
+    if(dead||isModalOpen())return;
+    const typing=/INPUT|TEXTAREA|SELECT/.test(ev.target.tagName)||ev.target.isContentEditable;
+    if(typing)return;
     var k=ev.key;
     if(k==='ArrowRight'||k==='PageDown'||k===' '){ev.preventDefault();go(idx+1);}
     else if(k==='ArrowLeft'||k==='PageUp'){ev.preventDefault();go(idx-1);}
@@ -373,7 +630,10 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     else if(k==='Escape'){if(document.fullscreenElement)document.exitFullscreen();else if(opts.onExit)opts.onExit();}
   }
   var wt=0;
-  function wh(ev){if(Math.abs(ev.deltaY)<24)return;var t=Date.now();if(t-wt<650)return;wt=t;go(idx+(ev.deltaY>0?1:-1));}
+  function wh(ev){
+    if(isModalOpen())return;
+    if(Math.abs(ev.deltaY)<24)return;var t=Date.now();if(t-wt<650)return;wt=t;go(idx+(ev.deltaY>0?1:-1));
+  }
   function rs(){fit();}
 
   document.addEventListener('keydown',key);
@@ -389,22 +649,26 @@ var Player=function WebDeckPlayer(deck, mount, opts){
   bar.addEventListener('pointerleave',function(){overBar=false;schedule();});
   bar.addEventListener('focusin',function(){focusBar=true;clearTimeout(hideT);});
   bar.addEventListener('focusout',function(){focusBar=false;schedule();});
-  hint.addEventListener('click',function(){if(cfg.controls==='hidden')setMode('auto',true);barOn();});
+  hint.addEventListener('click',function(){
+    if(isModalOpen())return;
+    if(cfg.controls==='hidden')setMode('auto',true);barOn();
+  });
   bar.addEventListener('click',function(ev){
+    if(isModalOpen())return;
     var b=ev.target.closest('[data-a]'); if(!b)return;
     var a=b.dataset.a;
     if(a==='prev')go(idx-1); else if(a==='next')go(idx+1);
     else if(a==='notes')notesEl.classList.toggle('on');
     else if(a==='full')full();
     else if(a==='auto'){setAuto(!auto);toast(auto?'Автопоказ включён':'Автопоказ выключен');}
-    else if(a==='loop'){setLoop(!cfg.loop);}
+    else if(a==='loop')setLoop(!cfg.loop);
     else if(a==='mode')setMode(cfg.controls==='auto'?'always':cfg.controls==='always'?'hidden':'auto');
     else if(a==='exit'&&opts.onExit)opts.onExit();
     if(a!=='mode')schedule();
   });
 
   fit(); show(opts.start||0,true); applyCfg();
-  toast(cfg.controls==='hidden'?'Панель скрыта · H — вернуть':'Кромка '+(cfg.pos==='top'?'сверху':'снизу')+' — панель · H — режим · тап на телефоне',3400);
+  toast(cfg.controls==='hidden'?'Панель скрыта · H — вернуть':'Кромка '+(cfg.pos==='top'?'сверху':'снизу')+' — панель · H — режим',3200);
 
   return {
     next:function(){go(idx+1);}, prev:function(){go(idx-1);}, goTo:go,
@@ -415,9 +679,10 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     loop:function(on){setLoop(!!on,true);},
     fit:fit, index:function(){return idx;},
     destroy:function(){
-      dead=true; setAuto(false);
+      dead=true; activeFinish=null; setAuto(false);
       clearTimeout(hideT);clearTimeout(cursorT);clearTimeout(toastT);
       anims.concat(transAnims).forEach(function(a){try{a.cancel();}catch(e){}});
+      stage.querySelectorAll('.wdp-layer').forEach(sleep);
       document.removeEventListener('keydown',key);
       removeEventListener('resize',rs);
       document.removeEventListener('fullscreenchange',rs);
@@ -431,7 +696,7 @@ var Player=function WebDeckPlayer(deck, mount, opts){
     }
   };
 };
-Player(DECK,document.getElementById("deck"),{standalone:true});
+Player(DECK,document.getElementById("deck"),{standalone:true,widgets:false});
 </script>
 </body>
 </html>
